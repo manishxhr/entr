@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(19, 17, 17);
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* table-layout: auto; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-self:center; */
+    /* background-color: gray; */
+    /* padding: 50px; */
+    width: 65%;
+    /* border: 4px solid black; */
+    
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  th{
+    font-size: 30;
+  }
+
+button{
+    margin-left: 430px;
+    margin-top: 50px;
+    background-color: rgb(101, 134, 224);
+    color: black;
+    /* background-color: pink; */
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+#btn {
+    border: 5px solid black;
+
+    
+   
+    /* height: 100px; */
+    /* justify-content: center; */
+
+}
+
+.container1{
+    /* width: 80vw; */
+    /* background-color: red; */
+    align-items: center;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+text-align: center;
+justify-content: center;
+margin-left: 50px;
+height: 20px;
+padding: 10px;
+border-radius: 7px ;
+border: 3px solid salmon;
+margin: 5px;
+font-weight:900;
+font-size: 24px;
+}
+
+.btns{
+    margin-left: 500px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+}
+ .btn2{
+    border: 1px solid black;
+    background-color: rgb(206, 79, 100);
+    color: beige;
+
+ }
